@@ -13,7 +13,7 @@ def findCreditInStr (String):
     credit = float (rawCredit)
     return credit
 
-# findCreditInStr函数：将分数数据转化成标准五分制绩点
+# handleGrade函数：将分数数据转化成标准五分制绩点
 def handleGrade (grade):
     rule = "-?\d{1,}\.\d{1,}E-?\d{1,}|-?\d{1,}\.\d{1,}|-?\d{1,}"
     gradeText = str (grade)
